@@ -1,6 +1,10 @@
-pynacl==1.2.1
 discord.py[voice]
 pip
-youtube_dl
+youtube_dl==2019.04.30
 colorlog
-cffi --only-binary all; sys_platform == 'win32'
+cffi --only-binary all; 
+aiohttp ~= 3.5.4
+websockets
+chardet
+opuslib
+pynacl==1.2.1
